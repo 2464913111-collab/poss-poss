@@ -1,0 +1,31 @@
+name: poss_poss
+description: POSS POSS - 拍照姿势指导 App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  image_picker: ^1.1.2
+  image: ^4.5.3
+  permission_handler: ^11.3.1
+  http: ^1.2.2
+  connectivity_plus: ^6.1.0
+  uuid: ^4.5.1
+  json_annotation: ^4.9.0
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.13
+  json_serializable: ^6.9.4
+
+flutter:
+  uses-material-design: true
